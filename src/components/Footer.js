@@ -8,6 +8,7 @@ export default function Footer() {
     <footer className="relative bg-orange-400 text-black pt-0 pb-6 px-4 flex flex-col md:flex-row justify-between items-center mt-auto overflow-hidden">
       {/* Wave SVG at the top */}
       <div className="absolute top-0 left-0 w-full -translate-y-full pointer-events-none">
+        <Image src={wave} alt="wave" />
         {/* <svg
           viewBox="0 0 1440 120"
           fill="none"
@@ -29,7 +30,7 @@ export default function Footer() {
         <a href="#" className="hover:underline">Medium</a> */}
       </div>
       <div className="text-xs z-10">
-        Designed and coded © 2022 - Nneoma Onuoha
+        Designed and coded © 2025 - Nneoma Onuoha
       </div>
     </footer>
   );
