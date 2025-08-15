@@ -14,54 +14,60 @@ export default function Home() {
     <div className="bg-[#181818] text-white flex flex-col font-sans">
       {/* Hero Section */}
       <section className="flex flex-col items-center text-center py-8 sm:py-12 px-4 relative">
-        <div className="flex flex-col items-center gap-2">
-          <div className="relative inline-block">
-            <span className="bg-[#222] px-4 py-1 rounded-full text-sm mb-2 inline-block">Hello!</span>
-            <Image src={helloImg} alt="hello-mockup" className="absolute -top-6 right-0 left-15 w-6 h-6 sm:w-8 sm:h-8" />
-          </div>
-          <h1 className="relative text-4xl sm:text-6xl md:text-8xl lg:text-[95px] font-bold leading-none inline-block">
-            I'm <span className="text-orange-400">Nneoma,</span><br />
-            <span className="relative inline-block">
-              <span className="inline-block">F</span>rontend Developer
-              <Image
-                src={helloImgTwo}
-                alt="hello-mockup-bottom"
-                className="absolute left-0 top-full mt-[-8px] sm:mt-[-12px] md:mt-[-15px] ml-[-30px] sm:ml-[-45px] md:ml-[-60px] w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20"
-              />
-            </span>
-          </h1>
-        </div>
-        
-        
-        <div className="flex flex-col lg:flex-row items-center py-6 justify-center gap-6 lg:gap-10">
-          {/* Quote Section - Show on tablet and desktop */}
-          <div className="text-sm text-white/70 max-w-xs text-left hidden sm:block order-2 lg:order-1">
-            <span className="text-3xl">
-            </span>
-            <FaQuoteLeft className="absolute w-[37px] h-[37px] left-4"/>
-            <div>
-              Nneoma&apos;s Exceptional Frontend & product design ensure our website&apos;s success. Highly Recommended
-            </div>
-              <FaQuoteRight className="absolute w-[38px] h-[38px]" />
-           </div>
+  {/* Intro Section */}
+  <div className="flex flex-col items-center gap-2">
+    <div className="relative inline-block">
+      <span className="bg-[#222] px-4 py-1 rounded-full text-sm mb-2 inline-block">Hello!</span>
+      <Image
+        src={helloImg}
+        alt="hello-mockup"
+        className="absolute -top-6 right-0 w-6 h-6 sm:w-8 sm:h-8"
+      />
+    </div>
 
-          {/* Profile Image */}
-          <div className="relative w-[280px] h-[280px] sm:w-[400px] sm:h-[400px] md:w-[450px] md:h-[450px] lg:w-[510px] lg:h-[500px] mx-auto rounded-full overflow-hidden border-4 sm:border-6 lg:border-8 border-orange-400 order-1 lg:order-2">
-            <Image src={myPic} alt="Nneoma" layout="fill" objectFit="cover" />
-          </div>
+    <h1 className="relative text-4xl sm:text-6xl md:text-8xl lg:text-[95px] font-bold leading-none inline-block">
+      I&apos;m <span className="text-orange-400">Nneoma&#44;</span><br />
+      <span className="relative inline-block">
+        <span className="inline-block">F</span>rontend Developer
+        <Image
+          src={helloImgTwo}
+          alt="hello-mockup-bottom"
+          className="absolute left-0 top-full mt-[-8px] sm:mt-[-12px] md:mt-[-15px] ml-[-30px] sm:ml-[-45px] md:ml-[-60px] w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20"
+        />
+      </span>
+    </h1>
+  </div>
 
-          {/* Experience Section - Show on tablet and desktop */}
-          <div className="flex-col items-center hidden sm:flex order-3">
-            <div className="flex items-center gap-1 text-orange-400 text-lg sm:text-xl mb-1">
-              {Array(5).fill(0).map((_, i) => <span key={i}>★</span>)}
-            </div>
-            <div>
-              <span className="text-2xl sm:text-3xl md:text-[47px] font-bold">4 Years</span>
-              <div className="text-sm sm:text-base md:text-[20px] text-white/70">Experience</div>
-            </div>
-          </div>
-        </div>
-      </section>
+  {/* Profile + Quote + Experience */}
+  <div className="flex flex-col lg:flex-row items-center lg:items-center justify-center py-6 gap-8 lg:gap-14 relative w-full">
+    
+    {/* Quote Section */}
+    <div className="relative text-sm text-white/70 max-w-xs sm:max-w-sm text-left hidden sm:block order-2 lg:order-1">
+      <FaQuoteLeft className="absolute -top-4 -left-6 w-[37px] h-[37px] text-orange-400" />
+      <p className="pl-8 pr-6 leading-relaxed">
+        Nneoma&apos;s Exceptional Frontend & product design ensure our website&apos;s success. Highly Recommended
+      </p>
+      <FaQuoteRight className="absolute -bottom-4 right-0 w-[38px] h-[38px] text-orange-400" />
+    </div>
+
+    {/* Profile Image */}
+    <div className="relative w-[280px] h-[280px] sm:w-[400px] sm:h-[400px] md:w-[450px] md:h-[450px] lg:w-[510px] lg:h-[500px] rounded-full overflow-hidden border-4 sm:border-6 lg:border-8 border-orange-400 order-1 lg:order-2 flex-shrink-0">
+      <Image src={myPic} alt="Nneoma" layout="fill" objectFit="cover" />
+    </div>
+
+    {/* Experience Section */}
+    <div className="flex flex-col items-center hidden sm:flex order-3">
+      <div className="flex items-center gap-1 text-orange-400 text-lg sm:text-xl mb-1">
+        {Array(5).fill(0).map((_, i) => <span key={i}>★</span>)}
+      </div>
+      <div className="text-center">
+        <span className="text-2xl sm:text-3xl md:text-[47px] font-bold">4 Years</span>
+        <div className="text-sm sm:text-base md:text-[20px] text-white/70">Experience</div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Skills */}
       <section className="py-8 flex flex-col items-center px-4">
@@ -74,7 +80,7 @@ export default function Home() {
 
       {/* Projects */}
       <section className="bg-[#111] py-8 sm:py-12 px-4">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[50px] font-bold mb-6 sm:mb-8 text-center lg:text-left">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[50px] font-bold mb-6 sm:mb-8 text-center lg:text-center">
           Lets have a look at my <span className="text-orange-400">Projects.</span>
         </h2>
         <div className="flex flex-col md:flex-row gap-6 sm:gap-8 justify-center">
