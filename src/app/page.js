@@ -20,7 +20,7 @@ export default function Home() {
             <Image src={helloImg} alt="hello-mockup" className="absolute -top-6 right-0 left-15 w-6 h-6 sm:w-8 sm:h-8" />
           </div>
           <h1 className="relative text-4xl sm:text-6xl md:text-8xl lg:text-[95px] font-bold leading-none inline-block">
-            I'm <span className="text-orange-400">Nneoma</span>,<br />
+            I'm <span className="text-orange-400">Nneoma,</span><br />
             <span className="relative inline-block">
               <span className="inline-block">F</span>rontend Developer
               <Image
@@ -40,7 +40,7 @@ export default function Home() {
             </span>
             <FaQuoteLeft className="absolute w-[37px] h-[37px] left-4"/>
             <div>
-              Nneoma's Exceptional Frontend & product design ensure our website's success. Highly Recommended
+              Nneoma&apos;s Exceptional Frontend & product design ensure our website&apos;s success. Highly Recommended
             </div>
               <FaQuoteRight className="absolute w-[38px] h-[38px]" />
            </div>
