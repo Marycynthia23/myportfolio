@@ -9,25 +9,11 @@ export default function Footer() {
       {/* Wave SVG at the top */}
       <div className="absolute top-0 left-0 w-full -translate-y-full pointer-events-none">
         <Image src={wave} alt="wave" />
-        {/* <svg
-          viewBox="0 0 1440 120"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          className="w-full h-[60px]"
-          preserveAspectRatio="none"
-        >
-          <path
-            d="M0,60 C360,120 1080,0 1440,60 L1440,120 L0,120 Z"
-            fill="#fb923c" // Tailwind's orange-400
-          />
-        </svg> */}
-        {/* <Image src={wave} alt="wave" /> */}
       </div>
       <div className="flex gap-6 mb-2 px-12 py-6 md:mb-0 z-10">
-        <a href="#" className="hover:underline">Github</a>
-        <a href="#" className="hover:underline">Linkedin</a>
-        {/* <a href="#" className="hover:underline">Instagram</a>
-        <a href="#" className="hover:underline">Medium</a> */}
+        <Link href="https://github.com/Marycynthia23" className="hover:underline">Github</Link>
+        <Link href="https://www.linkedin.com/in/nneoma-onuoha-14b064197/" className="hover:underline">Linkedin</Link>
+       
       </div>
       <div className="text-xs z-10">
         Designed and coded © 2025 - Nneoma Onuoha
