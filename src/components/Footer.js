@@ -6,6 +6,7 @@ import wave from "../app/images/wave.svg"
 export default function Footer() {
   return (
     <footer className="relative bg-orange-400 text-black pt-0 pb-6 px-4 flex flex-col md:flex-row justify-between items-center mt-auto overflow-hidden">
+     
       {/* Wave SVG at the top */}
       <div className="absolute top-0 left-0 w-full -translate-y-full pointer-events-none">
         <Image src={wave} alt="wave" />
