@@ -147,7 +147,7 @@ export default function ZenithMobile() {
               <div className="text-4xl font-bold mb-2">60%</div>
               <div className="text-white/90">Reduced Support Calls</div>
             </div>
-          </div>
+          </div> 
         </div>
 
         {/* Technologies Used */}
