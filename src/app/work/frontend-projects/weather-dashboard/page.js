@@ -76,7 +76,7 @@ export default function WeatherDashboard() {
             <div>
               <h4 className="text-xl font-semibold text-white mb-2">2. Geolocation Features</h4>
               <p className="text-white/70 leading-relaxed">
-                Utilized the browser's Geolocation API to automatically detect user location. Implemented location search functionality allowing users to check weather for any city worldwide.
+                Utilized the browser&apos;s Geolocation API to automatically detect user location. Implemented location search functionality allowing users to check weather for any city worldwide.
               </p>
             </div>
 

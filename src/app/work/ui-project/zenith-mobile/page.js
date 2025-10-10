@@ -79,14 +79,14 @@ export default function ZenithMobile() {
             <div>
               <h4 className="text-xl font-semibold text-white mb-2">2. Information Architecture</h4>
               <p className="text-white/70 leading-relaxed">
-                Restructured the app's navigation based on user mental models and task frequency analysis. Created a logical flow that prioritizes the most common banking operations.
+                Restructured the app&apos;s navigation based on user mental models and task frequency analysis. Created a logical flow that prioritizes the most common banking operations.
               </p>
             </div>
 
             <div>
               <h4 className="text-xl font-semibold text-white mb-2">3. Visual Design</h4>
               <p className="text-white/70 leading-relaxed">
-                Developed a clean, modern interface that balances professionalism with approachability. Used Zenith's brand colors strategically to guide user attention and create a cohesive brand experience.
+                Developed a clean, modern interface that balances professionalism with approachability. Used Zenith&apos;s brand colors strategically to guide user attention and create a cohesive brand experience.
               </p>
             </div>
 

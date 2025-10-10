@@ -150,7 +150,7 @@ export default function TaskManagement() {
             <div className="bg-white/5 p-6 rounded-lg">
               <h4 className="font-semibold text-white mb-2">Local Storage Persistence</h4>
               <p className="text-white/70">
-                Utilized browser's localStorage API to persist task data locally, ensuring users don't lose work even when offline.
+                Utilized browser&apos;s localStorage API to persist task data locally, ensuring users don&apos;t lose work even when offline.
               </p>
             </div>
           </div>

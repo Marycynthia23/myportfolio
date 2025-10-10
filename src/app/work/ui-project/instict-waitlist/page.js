@@ -44,7 +44,7 @@ export default function InstictWaitlist() {
           <div className="border-t border-white/10 pt-8">
             <h3 className="text-2xl font-bold text-white mb-4">Project Overview</h3>
             <p className="text-white/70 leading-relaxed mb-6">
-              Instict AI needed a compelling waitlist page to capture early adopter interest for their AI-powered interview preparation platform. The goal was to create a conversion-focused design that communicates the product's value proposition while collecting user information efficiently.
+              Instict AI needed a compelling waitlist page to capture early adopter interest for their AI-powered interview preparation platform. The goal was to create a conversion-focused design that communicates the product&apos;s value proposition while collecting user information efficiently.
             </p>
             <p className="text-white/70 leading-relaxed">
               The design emphasizes clarity, trust-building elements, and a seamless sign-up flow. Special attention was given to the visual hierarchy to guide users naturally through the value proposition to the call-to-action.
@@ -106,7 +106,7 @@ export default function InstictWaitlist() {
           <div className="grid md:grid-cols-2 gap-6">
             <div className="border-l-4 border-[#FF6B35] pl-4">
               <h4 className="font-semibold text-white mb-2">Clear Value Proposition</h4>
-              <p className="text-white/70">Immediately communicates the product's benefits above the fold</p>
+              <p className="text-white/70">Immediately communicates the product&apos;s benefits above the fold</p>
             </div>
             <div className="border-l-4 border-[#FF6B35] pl-4">
               <h4 className="font-semibold text-white mb-2">Minimal Form Fields</h4>

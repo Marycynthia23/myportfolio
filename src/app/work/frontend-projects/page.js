@@ -110,7 +110,7 @@ export default function FrontendProjects() {
         <div className="text-center mt-20 mb-16">
           <h2 className="text-3xl font-bold text-[#FF6B35] mb-6">
             Like what you see?<br />
-            Let's build something amazing together!
+            Let&apos;s build something amazing together!
           </h2>
           <a 
             href="mailto:onuohanneoma7@gmail.com"

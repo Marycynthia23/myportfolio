@@ -17,13 +17,13 @@ export default function About() {
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold">
                 <span className="text-[#FF6B35]">Hello,</span><br />
-                <span className="text-[#FF6B35]">I'm Nneoma Onuoha</span>
+                <span className="text-[#FF6B35]">I&apos;m Nneoma Onuoha</span>
               </h1>
             </div>
             
             <div className="space-y-6 text-lg leading-relaxed">
               <p className="text-white/90">
-                I'm Nneoma Onuoha, a talented Front end Developer. I am passionate about leveraging my diverse backgrounds to decipher challenging problems and create delightful experiences. I'm skilled at web development.
+                I&apos;m Nneoma Onuoha, a talented Front end Developer. I am passionate about leveraging my diverse backgrounds to decipher challenging problems and create delightful experiences. I&apos;m skilled at web development.
               </p>
               
               <p className="text-white/90">

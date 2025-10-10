@@ -79,7 +79,7 @@ export default function InstictAi() {
             <div>
               <h4 className="text-xl font-semibold text-white mb-2">2. AI Integration</h4>
               <p className="text-white/70 leading-relaxed">
-                Integrated OpenAI's GPT API to generate contextual interview questions and provide intelligent feedback. Implemented real-time response analysis and scoring algorithms to evaluate user performance.
+                Integrated OpenAI&apos;s GPT API to generate contextual interview questions and provide intelligent feedback. Implemented real-time response analysis and scoring algorithms to evaluate user performance.
               </p>
             </div>
 
