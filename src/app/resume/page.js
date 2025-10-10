@@ -1,7 +1,7 @@
 export default function ResumePage() {
 	return (
 		<main className="text-white px-4 py-8 max-w-5xl mx-auto w-full">
-			<h1 className="text-3xl font-bold mb-4 text-[#FD853A]">Resume</h1>
+			<h1 className="text-3xl font-bold mb-4 text-[#FF6B35]">Resume</h1>
 			<div className="w-full aspect-[8.5/11] max-h-[85vh]">
 				<iframe
 					title="Nneoma Resume"
@@ -14,7 +14,7 @@ export default function ResumePage() {
                 <a 
                     href="https://docs.google.com/document/d/1aZ_HhSM3EiI37kJ_zudm4TCVrUcVwPFNWmo_oFeJfwA/export?format=pdf" 
                     download="Nneoma_Resume.pdf"
-                    className="bg-[#FD853A] text-white px-6 py-2 rounded hover:bg-[#FD853A]/80 transition"
+                    className="bg-[#FF6B35] text-white px-6 py-2 rounded hover:bg-[#FF6B35]/80 transition"
                 >
                     Download Resume
                 </a>
