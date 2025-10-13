@@ -37,7 +37,7 @@ export default function Footer() {
         <div className="absolute bottom-10 right-10 w-40 h-40 rounded-full bg-white blur-3xl"></div>
       </div>
 
-      <div className="relative z-10 max-w-7xl pt-10 mx-auto">
+      <div className="relative z-10 pt-10 px-4 sm:px-6 md:px-10 lg:px-12 mx-auto">
         {/* Main Content */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-8 mb-8">
           {/* Brand/Logo Section */}
@@ -86,14 +86,14 @@ export default function Footer() {
 
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
-          <div className="text-white/90">
-            Designed and coded with 💛 © 2025 - Nneoma Onuoha
+          <div className="text-white/90 sm:text-center lg:text-left">
+            Designed and coded © 2025 - Nneoma Onuoha
       </div>
           
           <div className="flex gap-6 text-white/80">
             <Link href="/work" className="hover:text-white transition-colors">Work</Link>
             <Link href="/about" className="hover:text-white transition-colors">About</Link>
-            <Link href="/contact" className="hover:text-white transition-colors">Contact</Link>
+            {/* <Link href="/contact" className="hover:text-white transition-colors">Contact</Link> */}
       </div>
     </div>
   </div>

@@ -77,7 +77,7 @@ export default function Home() {
   return (
     <div className="text-white flex flex-col font-sans">
       {/* Hero Section */}
-      <section className="flex flex-col items-center text-center py-8 sm:py-12 px-4 relative">
+      <section className="flex flex-col items-center text-center py-14 sm:py-14 px-4 relative">
   {/* Intro Section */}
   <div className="flex flex-col items-center gap-2">
     <div className="relative inline-block">
@@ -89,7 +89,7 @@ export default function Home() {
       />
     </div>
 
-      <h1 className="relative text-4xl sm:text-4xl md:text-8xl lg:text-[95px] font-bold leading-4xl inline-block text-[#FAFAFA]">
+      <h1 className="relative text-4xl sm:text-4xl md:text-8xl lg:text-[95px] font-bold leading-4xl sm:leading-4xl md:leading-8xl lg:leading-[95px] inline-block text-[#FAFAFA]">
       I&apos;m <span className="text-[#FF6B35]">Nneoma&#44;</span><br/>
       <span className="relative inline-block">
         <span className="inline-block">F</span>rontend Developer
@@ -118,7 +118,7 @@ export default function Home() {
 
     {/* Profile Image - Centered */}
     <div className="flex justify-center items-center order-1 lg:order-2">
-      <div className="relative w-[280px] h-[280px] sm:w-[400px] sm:h-[400px] md:w-[450px] md:h-[450px] lg:w-[420px] lg:h-[420px] xl:w-[480px] xl:h-[480px] rounded-full overflow-hidden border-4 sm:border-6 lg:border-8 border-[#FF6B35] flex-shrink-0 shadow-2xl shadow-[#FF6B35]/20">
+      <div className="relative w-[350px] h-[350px] sm:w-[350px] sm:h-[350px] md:w-[450px] md:h-[450px] lg:w-[420px] lg:h-[420px] xl:w-[480px] xl:h-[480px] rounded-full overflow-hidden border-4 sm:border-6 lg:border-8 border-[#FF6B35] flex-shrink-0 shadow-2xl shadow-[#FF6B35]/20">
         <Image src={myPic} alt="Nneoma" layout="fill" objectFit="cover" />
       </div>
     </div>
@@ -251,7 +251,7 @@ export default function Home() {
             </h2>
           </div>
             <div className="flex items-center justify-center gap-2.5 px-8 lg:px-16 py-2 w-full mb-8">
-            <a href="mailto:onuohanneoma7@gmail.com" className="w-full  sm:w-[232px] h-[50px] flex justify-center items-center bg-[#FF6B35] text-white text-[14px] sm:text-[16px] rounded-md">
+            <a href="mailto:onuohanneoma7@gmail.com" className="w-full  sm:w-[232px] h-[50px] flex justify-center items-center bg-[#FF6B35] text-white text-[14px] sm:text-[16px] rounded-md px-8">
             onuohanneoma7@gmail.com
             </a>
             </div>

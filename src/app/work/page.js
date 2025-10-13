@@ -140,7 +140,7 @@ export default function Work() {
 
         {/* Call to Action Section */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-[#FF6B35] mb-6">
+          <h2 className="text-3xl font-bold text-[#FFffff] mb-6">
             Want to work together?<br />
             Get in touch.
           </h2>

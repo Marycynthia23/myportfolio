@@ -1,4 +1,5 @@
 import Image from "next/image";
+import myPic from "../images/nnepix.jpg";
 
 export default function About() {
   return (
@@ -8,44 +9,48 @@ export default function About() {
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#FF6B35] rounded-full opacity-20 blur-3xl transform -translate-x-1/2 translate-y-1/2"></div>
       
       {/* Main content container */}
-      <div className="relative z-10 max-w-7xl mx-auto px-8 py-16">
+      <div className="relative z-10 px-4 sm:px-6 md:px-12 lg:px-[4%] mx-auto py-16">
 
         {/* Main content section */}
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left side - Introduction text */}
           <div className="space-y-8">
             <div className="space-y-4">
-              <h1 className="text-4xl lg:text-6xl font-bold">
-                <span className="text-[#FF6B35]">Hello,</span><br />
+              <h1 className="text-4xl lg:text-5xl font-bold">
+                <span className="text-[#FF6B35] mb-4">Hello,</span><br />
                 <span className="text-[#FF6B35]">I&apos;m Nneoma Onuoha</span>
               </h1>
             </div>
             
             <div className="space-y-6 text-lg leading-relaxed">
               <p className="text-white/90">
-                I&apos;m Nneoma Onuoha, a talented Front end Developer. I am passionate about leveraging my diverse backgrounds to decipher challenging problems and create delightful experiences. I&apos;m skilled at web development.
+                A Software Engineer-(Frontend), passionate about crafting intuitive, and user-focused web experiences.
+                My journey into tech started with a curiosity for how design and logic meet to create products people love. That curiosity grew into a career built around turning ideas into beautiful, functional interfaces using React.js, Next.js, Angular, and JavaScript.
               </p>
               
               <p className="text-white/90">
-                I develop websites with HTML, CSS, JavaScript, React.js and Vue.js. I have top skills in using coding softwares like Git and Github with frameworks like React, Vue, Nuxt, Bootstrap.
+              I&apos;ve had the pleasure of working on projects across FinTech, EduTech, HealthTech, and B2B software, and even collaborating internationally with teams at XPLORE-UnternehmerTUM in Germany; an experience that deepened my love for teamwork, creativity,Startups and diverse perspectives.
               </p>
               
               <p className="text-white/90">
-                Being a creative, hardworking and result oriented lady, I always work towards achieving best result on any project.
+              Beyond coding, I&apos;m driven by curiosity and design thinking. I love learning new tools, exploring innovative solutions, and creating digital experiences that connect with people in meaningful ways.
+              </p>
+              <p className="text-white/90">
+              Let&apos;s build something amazing together. 🚀
               </p>
             </div>
           </div>
 
           {/* Right side - Profile image with orange background */}
           <div className="relative">
-            <div className="relative w-full h-[600px] rounded-3xl overflow-hidden">
+            <div className="relative w-full h-[800px] rounded-3xl overflow-hidden">
               {/* Orange curved background */}
-              <div className="absolute inset-0 bg-[#FF6B35] rounded-3xl transform rotate-3 scale-105"></div>
+              <div className="absolute inset-0 bg-[#FFffff] rounded-3xl transform rotate-3 scale-115"></div>
               
               {/* Profile image */}
               <div className="absolute inset-4 rounded-2xl overflow-hidden">
                 <Image
-                  src="/myPic.jpg"
+                  src={myPic}
                   alt="Nneoma Onuoha"
                   fill
                   className="object-cover"
@@ -58,7 +63,7 @@ export default function About() {
 
         {/* Call to action section */}
         <div className="text-center mt-20 mb-16">
-          <h2 className="text-3xl font-bold text-[#FF6B35] mb-6">
+          <h2 className="text-3xl font-bold text-[#FFffff] mb-6">
             Want to work together?<br/> Get in touch.
           </h2>
           <a 

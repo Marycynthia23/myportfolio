@@ -7,8 +7,8 @@ import { useState } from 'react';
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <nav className="sticky top-0 z-30 bg-[#181818] text-white flex items-center justify-between px-8 border-b border-[#222]">
-      <Link href="/" className="text-3xl font-bold text-[#FF6B35]">
+    <nav className="sticky top-0 z-30 bg-[#181818] text-white flex items-center justify-between px-2 sm:px-2 lg:px-8 border-b border-[#222]">
+      <Link href="/" className="">
         <Image src={logo} alt="Nneoma's Portfolio" width={100} height={100} />
       </Link>
       {/* Desktop Menu */}
@@ -25,9 +25,9 @@ export default function Navbar() {
         onClick={() => setMenuOpen(!menuOpen)}
         aria-label="Toggle menu"
       >
-        <span className={`block w-6 h-0.5 bg-[#FF6B35] mb-1 transition-transform duration-300 ${menuOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
-        <span className={`block w-6 h-0.5 bg-[#FF6B35] mb-1 transition-opacity duration-300 ${menuOpen ? 'opacity-0' : ''}`}></span>
-        <span className={`block w-6 h-0.5 bg-[#FF6B35] transition-transform duration-300 ${menuOpen ? '-rotate-45 -translate-y-2' : ''}`}></span>
+        <span className={`block w-8 h-1 rounded-full bg-[#FF6B35] mb-1 transition-transform duration-300 ${menuOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
+        <span className={`block w-8 h-1 rounded-full bg-[#FF6B35] mb-1 transition-opacity duration-300 ${menuOpen ? 'opacity-0' : ''}`}></span>
+        <span className={`block w-8 h-1 rounded-full bg-[#FF6B35] transition-transform duration-300 ${menuOpen ? '-rotate-45 -translate-y-2' : ''}`}></span>
       </button>
       {/* Mobile Menu */}
       {menuOpen && (

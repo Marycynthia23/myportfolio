@@ -121,7 +121,7 @@ export default function UIProject() {
 
         {/* Call to Action Section */}
         <div className="text-center mt-20 mb-16">
-          <h2 className="text-3xl font-bold text-[#FF6B35] mb-6">
+          <h2 className="text-3xl font-bold text-[#FFffff] mb-6">
             Interested in my UI work?<br />
             Let&apos;s collaborate!
           </h2>
