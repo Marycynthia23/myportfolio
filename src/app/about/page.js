@@ -1,5 +1,6 @@
+"use client"
 import Image from "next/image";
-import myPic from "../images/nnepix.jpg";
+import aboutPic from "../images/nnepix.png";
 
 export default function About() {
   return (
@@ -50,8 +51,8 @@ export default function About() {
               {/* Profile image */}
               <div className="absolute inset-4 rounded-2xl overflow-hidden">
                 <Image
-                  src={myPic}
-                  alt="Nneoma Onuoha"
+                  src={aboutPic}
+                  alt="Nneoma-Onuoha"
                   fill
                   className="object-cover"
                   priority
