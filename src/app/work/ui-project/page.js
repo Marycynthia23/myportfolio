@@ -25,7 +25,7 @@ export default function UIProject() {
         {/* Project Cards */}
         <div className="space-y-12">
           {/* First Project Card */}
-          <div className="bg-[#181818] border border-white/10 rounded-2xl p-8 shadow-2xl">
+          <div className="bg-[#181818] border border-white/10 rounded-2xl p-4 sm:p-4 lg:p-8 shadow-2xl">
             <div className="grid lg:grid-cols-2 gap-8 items-center">
               {/* Left side - Text */}
               <div className="space-y-6">
@@ -40,7 +40,7 @@ export default function UIProject() {
                 </div>
                 <a 
                   href="/work/ui-project/instict-waitlist"
-                  className="inline-block bg-[#FF6B35] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#FF6B35]/80 transition-colors"
+                  className="border border-[#FF6B35] text-[#FF6B35] px-6 py-3 rounded-lg font-semibold hover:bg-[#FF6B35] hover:text-white transition-colors"
                 >
                   View Project
                 </a>
@@ -58,7 +58,7 @@ export default function UIProject() {
           </div>
 
           {/* Second Project Card */}
-          <div className="bg-[#181818] border border-white/10 rounded-2xl p-8 shadow-2xl">
+          <div className="bg-[#181818] border border-white/10 rounded-2xl p-4 sm:p-4 lg:p-8 shadow-2xl">
             <div className="grid lg:grid-cols-2 gap-8 items-center">
               {/* Left side - Image */}
               <div className="relative h-80 rounded-xl overflow-hidden">
@@ -82,8 +82,7 @@ export default function UIProject() {
                 </div>
                 <a 
                   href="/work/ui-project/zenith-mobile"
-                  className="inline-block bg-[#FF6B35] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#FF6B35]/80 transition-colors"
-                >
+                  className="border border-[#FF6B35] text-[#FF6B35] px-6 py-3 rounded-lg font-semibold hover:bg-[#FF6B35] hover:text-white transition-colors"                >
                   View Project
                 </a>
               </div>
@@ -91,29 +90,82 @@ export default function UIProject() {
           </div>
 
           {/* Third Project Card */}
-          <div className="bg-[#181818] border border-white/10 rounded-2xl p-8 shadow-2xl">
+          <div className="bg-[#181818] border border-white/10 rounded-2xl p-4 sm:p-4 lg:p-8 shadow-2xl">
             <div className="grid lg:grid-cols-2 gap-8 items-center">
               {/* Left side - Text */}
               <div className="space-y-6">
-                <h2 className="text-2xl font-bold text-white">E-commerce Dashboard</h2>
+                <h2 className="text-2xl font-bold text-white">Wecaredrugstores — Pharmacy E-Commerce</h2>
                 <p className="text-white/70 leading-relaxed">
-                  Designed a comprehensive dashboard interface for an e-commerce platform with focus on data visualization, user experience, and accessibility. The design emphasizes clarity and efficiency.
+                  A comprehensive web-based pharmacy e-commerce application designed to make purchasing medications and healthcare products fast, secure, and convenient. Features dual-module system with customer-facing store and admin dashboard.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <span className="bg-[#FF6B35] text-white px-3 py-1 rounded-full text-sm">Dashboard Design</span>
-                  <span className="bg-[#FF6B35] text-white px-3 py-1 rounded-full text-sm">Data Visualization</span>
-                  <span className="bg-[#FF6B35] text-white px-3 py-1 rounded-full text-sm">Accessibility</span>
+                  <span className="bg-[#FF6B35] text-white px-3 py-1 rounded-full text-sm">E-commerce Design</span>
+                  <span className="bg-[#FF6B35] text-white px-3 py-1 rounded-full text-sm">Healthcare UI</span>
+                  <span className="bg-[#FF6B35] text-white px-3 py-1 rounded-full text-sm">Admin Dashboard</span>
                 </div>
                 <a 
                   href="/work/ui-project/ecommerce-dashboard"
-                  className="inline-block bg-[#FF6B35] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#FF6B35]/80 transition-colors"
-                >
+                  className="border border-[#FF6B35] text-[#FF6B35] px-6 py-3 rounded-lg font-semibold hover:bg-[#FF6B35] hover:text-white transition-colors"                >
                   View Project
                 </a>
               </div>
               {/* Right side - Image */}
               <div className="relative h-80 rounded-xl overflow-hidden bg-gray-200 flex items-center justify-center">
-                <span className="text-gray-500 text-lg">Dashboard Preview</span>
+                <span className="text-gray-500 text-lg">Wecaredrugstores Preview</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Fourth Project Card */}
+          <div className="bg-[#181818] border border-white/10 rounded-2xl p-4 sm:p-4 lg:p-8 shadow-2xl">
+            <div className="grid lg:grid-cols-2 gap-8 items-center">
+              {/* Left side - Image */}
+              <div className="relative h-80 rounded-xl overflow-hidden bg-gray-200 flex items-center justify-center">
+                <span className="text-gray-500 text-lg">Estate Management Preview</span>
+              </div>
+              {/* Right side - Text */}
+              <div className="space-y-6">
+                <h2 className="text-2xl font-bold text-white">Estate Management System</h2>
+                <p className="text-white/70 leading-relaxed">
+                  A comprehensive property and estate management platform designed to streamline operations for property managers, residents, and maintenance staff with intuitive multi-role dashboards.
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-[#FF6B35] text-white px-3 py-1 rounded-full text-sm">Property Management</span>
+                  <span className="bg-[#FF6B35] text-white px-3 py-1 rounded-full text-sm">Multi-Role Design</span>
+                  <span className="bg-[#FF6B35] text-white px-3 py-1 rounded-full text-sm">Dashboard UI</span>
+                </div>
+                <a 
+                  href="/work/ui-project/estate-mgt"
+                  className="border border-[#FF6B35] text-[#FF6B35] px-6 py-3 rounded-lg font-semibold hover:bg-[#FF6B35] hover:text-white transition-colors"                >
+                  View Project
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Fifth Project Card */}
+            <div className="bg-[#181818] border border-white/10 rounded-2xl p-4 sm:p-4 lg:p-8 shadow-2xl">
+            <div className="grid lg:grid-cols-2 gap-8 items-center">
+              {/* Left side - Text */}
+              <div className="space-y-6">
+                <h2 className="text-2xl font-bold text-white">MyBaby – Women&apos;s Reproductive Health</h2>
+                <p className="text-white/70 leading-relaxed">
+                  A women&apos;s health and wellness application supporting women through fertility tracking, pregnancy care, and postnatal support. Features personalized onboarding, cycle tracking, health education, and gynecologist consultations.
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-[#FF6B35] text-white px-3 py-1 rounded-full text-sm">Mobile Design</span>
+                  <span className="bg-[#FF6B35] text-white px-3 py-1 rounded-full text-sm">Women&apos;s Health</span>
+                  <span className="bg-[#FF6B35] text-white px-3 py-1 rounded-full text-sm">User Research</span>
+                </div>
+                <a 
+                  href="/work/ui-project/mybaby-mobile"
+                  className="border border-[#FF6B35] text-[#FF6B35] px-6 py-3 rounded-lg font-semibold hover:bg-[#FF6B35] hover:text-white transition-colors"                >
+                  View Project
+                </a>
+              </div>
+              {/* Right side - Image */}
+              <div className="relative h-80 rounded-xl overflow-hidden bg-gray-200 flex items-center justify-center">
+                <span className="text-gray-500 text-lg">MyBaby App Preview</span>
               </div>
             </div>
           </div>

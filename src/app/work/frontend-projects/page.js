@@ -25,7 +25,7 @@ export default function FrontendProjects() {
         {/* Project Cards */}
         <div className="space-y-12">
           {/* First Project Card */}
-          <div className="bg-[#181818] border border-white/10 rounded-2xl p-8 shadow-2xl">
+          <div className="bg-[#181818] border border-white/10 rounded-2xl p-4 sm:p-4 lg:p-8 shadow-2xl">
             <div className="grid lg:grid-cols-2 gap-8 items-center">
               {/* Left side - Text */}
               <div className="space-y-6">
@@ -65,7 +65,7 @@ export default function FrontendProjects() {
           </div>
 
           {/* Second Project Card */}
-          <div className="bg-[#181818] border border-white/10 rounded-2xl p-8 shadow-2xl">
+          <div className="bg-[#181818] border border-white/10 rounded-2xl p-4 sm:p-4 lg:p-8 shadow-2xl">
             <div className="grid lg:grid-cols-2 gap-8 items-center">
               {/* Left side - Image */}
               <div className="relative h-80 rounded-xl overflow-hidden">
@@ -90,7 +90,7 @@ export default function FrontendProjects() {
                   <span className="bg-[#FF6B35] text-white px-3 py-1 rounded-full text-sm">Tailwind CSS</span>
                   <span className="bg-[#FF6B35] text-white px-3 py-1 rounded-full text-sm">Endpoint Integration</span>
                 </div>
-                <div className="flex gap-4">
+                <div className="flex sm:flex-row lg:flex-col gap-4">
                   <a 
                     href="/work/frontend-projects/atarrodo"
                     className="inline-block bg-[#FF6B35] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#FF6B35]/80 transition-colors"

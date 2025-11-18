@@ -58,20 +58,21 @@ export default function Home() {
   const noCodeProjects = [
     {
       id: 1,
-      title: "Business Website",
+      title: "No-Code Projects Coming Soon",
       category: "No-Code Projects",
-      description: "Built with Webflow",
-      image: foodImg,
-      alt: "Webflow Business Website"
+      description: "Framer"
+      // image: foodImg,
+      // alt: "Webflow Business Website"
+     
     },
-    {
-      id: 2,
-      title: "SaaS Platform",
-      category: "No-Code Projects",
-      description: "Built with Bubble.io",
-      image: foodImg,
-      alt: "Bubble SaaS Platform"
-    }
+    // {
+    //   id: 2,
+    //   title: "SaaS Platform",
+    //   category: "No-Code Projects",
+    //   description: "Built with Bubble.io",
+    //   image: foodImg,
+    //   alt: "Bubble SaaS Platform"
+    // }
   ];
 
   return (
@@ -181,16 +182,6 @@ export default function Home() {
         <div className="flex justify-center mb-8">
                  <div className="bg-[#181818] rounded-lg p-1 flex flex-wrap justify-center">
             <button
-              onClick={() => setActiveTab('ui')}
-              className={`px-6 py-3 rounded-md text-sm font-semibold transition-all duration-300 ${
-                activeTab === 'ui'
-                  ? 'bg-[#FF6B35] text-white'
-                         : 'text-white/70 hover:text-white'
-              }`}
-            >
-              UI
-            </button>
-            <button
               onClick={() => setActiveTab('frontend')}
               className={`px-6 py-3 rounded-md text-sm font-semibold transition-all duration-300 ${
                 activeTab === 'frontend'
@@ -201,6 +192,16 @@ export default function Home() {
               Frontend 
             </button>
             <button
+              onClick={() => setActiveTab('ui')}
+              className={`px-6 py-3 rounded-md text-sm font-semibold transition-all duration-300 ${
+                activeTab === 'ui'
+                  ? 'bg-[#FF6B35] text-white'
+                         : 'text-white/70 hover:text-white'
+              }`}
+            >
+              UI
+            </button>
+            {/* <button
               onClick={() => setActiveTab('nocode')}
               className={`px-6 py-3 rounded-md text-sm font-semibold transition-all duration-300 ${
                 activeTab === 'nocode'
@@ -209,7 +210,7 @@ export default function Home() {
               }`}
             >
               No-Code
-            </button>
+            </button> */}
           </div>
         </div>
 
