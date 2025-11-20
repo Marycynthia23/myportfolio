@@ -1,4 +1,5 @@
 import Image from "next/image";
+import mybabyMobile from "../../../images/mybaby-mobile.png";
 
 export default function MyBabyMobile() {
   return (
@@ -16,10 +17,10 @@ export default function MyBabyMobile() {
               ← Back to UI Projects
             </a>
           </div>
-          <h1 className="text-4xl lg:text-6xl font-bold text-white mb-4">MyBaby – A Companion App for Women&apos;s Reproductive Health</h1>
+          <h1 className="text-4xl lg:text-6xl font-bold text-white mb-4">MyBaby – A Personal Gynecologist App</h1>
           <div className="w-24 h-1 bg-[#FF6B35] mb-6"></div>
           <p className="text-xl text-white/80 max-w-3xl">
-            Supporting women through fertility, pregnancy, and postnatal care with personalized health insights
+            Supporting women through fertility, pregnancy, and postnatal care with personalized health insights and consultations with their gynecologists
           </p>
         </div>
 
@@ -61,11 +62,13 @@ export default function MyBabyMobile() {
 
         {/* Main Project Image */}
         <div className="bg-[#181818] border border-white/10 rounded-2xl p-8 mb-12 shadow-2xl">
-          <div className="relative w-full h-[500px] rounded-xl overflow-hidden bg-gray-100 flex items-center justify-center">
-            <div className="text-center">
-              <div className="text-6xl mb-4">👶</div>
-              <p className="text-white/60 text-lg">MyBaby App Preview</p>
-            </div>
+          <div className="relative h-90 rounded-xl overflow-hidden">
+            <Image
+              src={mybabyMobile}
+              alt="MyBaby Mobile"
+              fill
+              className="object-cover h-full"
+            />
           </div>
         </div>
 
@@ -179,11 +182,11 @@ export default function MyBabyMobile() {
 
         {/* Example Flow */}
         <div className="bg-[#181818] border border-white/10 rounded-2xl p-8 mb-12 shadow-2xl">
-          <h3 className="text-2xl font-bold text-white mb-6">Example Flow: "Trying to Get Pregnant"</h3>
+          <h3 className="text-2xl font-bold text-white mb-6">Example Flow: &quot;Trying to Get Pregnant&quot;</h3>
           <div className="space-y-4">
             <div className="flex gap-3">
               <span className="text-[#FF6B35] font-bold">1.</span>
-              <p className="text-white/70">The user selects "Trying to Get Pregnant" during onboarding.</p>
+              <p className="text-white/70">The user selects &quot;Trying to Get Pregnant&quot; during onboarding.</p>
             </div>
             <div className="flex gap-3">
               <span className="text-[#FF6B35] font-bold">2.</span>
@@ -327,7 +330,7 @@ export default function MyBabyMobile() {
             </div>
             <div className="bg-white/5 p-6 rounded-lg">
               <h4 className="font-semibold text-white mb-2">Timeline View</h4>
-              <p className="text-white/70">Displays daily guidance ("You&apos;re 1 month and 14 days pregnant. Watch this video.").</p>
+              <p className="text-white/70">Displays daily guidance (&quot;You&apos;re 1 month and 14 days pregnant.&quot;).</p>
             </div>
             <div className="bg-white/5 p-6 rounded-lg">
               <h4 className="font-semibold text-white mb-2">Consultation Integration</h4>
@@ -337,7 +340,7 @@ export default function MyBabyMobile() {
         </div>
 
         {/* Results */}
-        <div className="bg-[#FF6B35] rounded-2xl p-8 mb-12 shadow-2xl">
+        <div className="bg-[#FF6B35] rounded-2xl p-8 mb-12 shadow-2xl bg-[#FF6B35]/10 border border-[#FF6B35]/30 ">
           <h3 className="text-2xl font-bold text-white mb-6">Results & Impact</h3>
           <div className="space-y-4 text-white mb-6">
             <div className="flex gap-3">

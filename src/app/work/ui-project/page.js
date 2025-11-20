@@ -1,6 +1,9 @@
 import Image from "next/image";
 import waitlist from "../../images/instictWaitlt.png";
 import mobileDesign from "../../images/zenMobile.png";
+import estateManagement from "../../images/cliqestate.png";
+import mybabyMobile from "../../images/mybaby-mobile.png";
+import bespokePaint from "../../images/atarrodoHero.png";
 
 export default function UIProject() {
   return (
@@ -57,10 +60,38 @@ export default function UIProject() {
             </div>
           </div>
 
-          {/* Second Project Card */}
+          {/* Bespoke Paint Company */}
           <div className="bg-[#181818] border border-white/10 rounded-2xl p-4 sm:p-4 lg:p-8 shadow-2xl">
             <div className="grid lg:grid-cols-2 gap-8 items-center">
-              {/* Left side - Image */}
+              <div className="space-y-6">
+                <h2 className="text-2xl font-bold text-white">Bespoke Paint Company Website</h2>
+                <p className="text-white/70 leading-relaxed">
+                  A strategic website structure for a paint brand that manufactures on demand,
+                  offers professional application, and grows via a distributor network. The concept
+                  balances storytelling with clear CTAs for “Request Custom Paint” and “Apply as
+                  Distributor”.
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-[#FF6B35] text-white px-3 py-1 rounded-full text-sm">Website UX</span>
+                  <span className="bg-[#FF6B35] text-white px-3 py-1 rounded-full text-sm">Service Design</span>
+                  <span className="bg-[#FF6B35] text-white px-3 py-1 rounded-full text-sm">Content Strategy</span>
+                </div>
+                <a
+                  href="/work/ui-project/bespoke-paint"
+                  className="border border-[#FF6B35] text-[#FF6B35] px-6 py-3 rounded-lg font-semibold hover:bg-[#FF6B35] hover:text-white transition-colors"
+                >
+                  View Project
+                </a>
+              </div>
+              <div className="relative h-80 rounded-xl overflow-hidden">
+                <Image src={bespokePaint} alt="Bespoke Paint Company" fill className="object-cover" />
+              </div>
+            </div>
+          </div>
+
+          {/* Second Project Card */}
+          {/* <div className="bg-[#181818] border border-white/10 rounded-2xl p-4 sm:p-4 lg:p-8 shadow-2xl">
+            <div className="grid lg:grid-cols-2 gap-8 items-center">
               <div className="relative h-80 rounded-xl overflow-hidden">
                 <Image
                   src={mobileDesign}
@@ -69,7 +100,6 @@ export default function UIProject() {
                   className="object-cover"
                 />
               </div>
-              {/* Right side - Text */}
               <div className="space-y-6">
                 <h2 className="text-2xl font-bold text-white">Zenith Mobile</h2>
                 <p className="text-white/70 leading-relaxed">
@@ -87,12 +117,11 @@ export default function UIProject() {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Third Project Card */}
-          <div className="bg-[#181818] border border-white/10 rounded-2xl p-4 sm:p-4 lg:p-8 shadow-2xl">
+          {/* <div className="bg-[#181818] border border-white/10 rounded-2xl p-4 sm:p-4 lg:p-8 shadow-2xl">
             <div className="grid lg:grid-cols-2 gap-8 items-center">
-              {/* Left side - Text */}
               <div className="space-y-6">
                 <h2 className="text-2xl font-bold text-white">Wecaredrugstores — Pharmacy E-Commerce</h2>
                 <p className="text-white/70 leading-relaxed">
@@ -109,21 +138,31 @@ export default function UIProject() {
                   View Project
                 </a>
               </div>
-              {/* Right side - Image */}
               <div className="relative h-80 rounded-xl overflow-hidden bg-gray-200 flex items-center justify-center">
-                <span className="text-gray-500 text-lg">Wecaredrugstores Preview</span>
+                <Image
+                  src={mobileDesign}
+                  alt="Zenith Mobile"
+                  fill
+                  className="object-cover"
+                />
+              
+
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Fourth Project Card */}
-          <div className="bg-[#181818] border border-white/10 rounded-2xl p-4 sm:p-4 lg:p-8 shadow-2xl">
+          {/* <div className="bg-[#181818] border border-white/10 rounded-2xl p-4 sm:p-4 lg:p-8 shadow-2xl">
             <div className="grid lg:grid-cols-2 gap-8 items-center">
-              {/* Left side - Image */}
               <div className="relative h-80 rounded-xl overflow-hidden bg-gray-200 flex items-center justify-center">
-                <span className="text-gray-500 text-lg">Estate Management Preview</span>
+              <Image
+                  src={estateManagement}
+                  alt="Zenith Mobile"
+                  fill
+                  className="object-cover"
+                />
+              
               </div>
-              {/* Right side - Text */}
               <div className="space-y-6">
                 <h2 className="text-2xl font-bold text-white">Estate Management System</h2>
                 <p className="text-white/70 leading-relaxed">
@@ -141,7 +180,7 @@ export default function UIProject() {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Fifth Project Card */}
             <div className="bg-[#181818] border border-white/10 rounded-2xl p-4 sm:p-4 lg:p-8 shadow-2xl">
@@ -164,8 +203,13 @@ export default function UIProject() {
                 </a>
               </div>
               {/* Right side - Image */}
-              <div className="relative h-80 rounded-xl overflow-hidden bg-gray-200 flex items-center justify-center">
-                <span className="text-gray-500 text-lg">MyBaby App Preview</span>
+              <div className="relative h-80 rounded-xl overflow-hidden">
+                <Image
+                  src={mybabyMobile}
+                  alt="MyBaby Mobile"
+                  fill
+                  className="object-cover"
+                />
               </div>
             </div>
           </div>
