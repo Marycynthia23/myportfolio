@@ -3,7 +3,7 @@ import waitlist from "../../images/instictWaitlt.png";
 import mobileDesign from "../../images/zenMobile.png";
 import estateManagement from "../../images/cliqestate.png";
 import mybabyMobile from "../../images/mybaby-mobile.png";
-import bespokePaint from "../../images/atarrodoHero.png";
+import bespokePaint from "../../images/hero-paint.png";
 
 export default function UIProject() {
   return (

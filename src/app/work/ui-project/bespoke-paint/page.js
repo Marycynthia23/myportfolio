@@ -1,6 +1,6 @@
 import Image from "next/image";
-import paintTexture from "../../../images/landpic.png";
-
+import paintTexture from "../../../images/hero-paint.png";
+// import bespokePaint from "../../../images/atarrodoHero.png";
 const projectDetails = [
   { label: "Role", value: "Product Designer" },
   { label: "Scope", value: "Information Architecture, UX Writing, Website UI" },
