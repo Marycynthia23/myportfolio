@@ -87,7 +87,7 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
           <div className="text-white/90 sm:text-center lg:text-left">
-            Designed and coded © 2025 - Nneoma Onuoha
+            Designed and coded with Next.js and Tailwind CSS © 2025 byNneoma Onuoha
       </div>
           
           <div className="flex gap-6 text-white/80">

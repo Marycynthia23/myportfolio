@@ -29,22 +29,22 @@ export default function Atarrodo() {
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
               <h3 className="text-sm font-semibold text-white/60 uppercase mb-2">Role</h3>
-              <p className="text-white">Full-Stack Developer</p>
+              <p className="text-white">Frontend Developer</p>
             </div>
             <div>
               <h3 className="text-sm font-semibold text-white/60 uppercase mb-2">Timeline</h3>
-              <p className="text-white">12 Weeks</p>
+              <p className="text-white">4 months (Part-time)</p>
             </div>
             <div>
               <h3 className="text-sm font-semibold text-white/60 uppercase mb-2">Technologies</h3>
-              <p className="text-white">React.js, Next.js, TypeScript, Firebase</p>
+              <p className="text-white">React.js, Next.js, JavaScript, React-module css,Tailwind CSS, Swagger API</p>
             </div>
           </div>
 
           <div className="border-t border-white/10 pt-8">
             <h3 className="text-2xl font-bold text-white mb-4">Project Overview</h3>
             <p className="text-white/70 leading-relaxed mb-6">
-              Atarrodo is an innovative language learning platform focused on preserving and teaching African languages. The application provides interactive lessons, pronunciation guides, and cultural context to help learners master languages like Yoruba, Igbo, Swahili, and more.
+              Atarrodo is an innovative African language learning platform focused on preserving and teaching African languages. The application provides interactive lessons, pronunciation guides, and cultural context to help learners master languages like Yoruba, Igbo, Swahili, and more.
             </p>
             <p className="text-white/70 leading-relaxed">
               Built with modern web technologies, the platform features interactive lessons, user authentication, progress tracking, and a community forum. The application emphasizes cultural preservation while providing an engaging learning experience.
@@ -117,22 +117,14 @@ export default function Atarrodo() {
               <p className="text-white/70">Personalized dashboard showing learning milestones and achievements</p>
             </div>
             <div className="border-l-4 border-[#FF6B35] pl-4">
-              <h4 className="font-semibold text-white mb-2">Cultural Context</h4>
+              <h4 className="font-semibold text-white mb-2">Cultural Games Context</h4>
               <p className="text-white/70">Learn about traditions, proverbs, and cultural significance</p>
-            </div>
-            <div className="border-l-4 border-[#FF6B35] pl-4">
-              <h4 className="font-semibold text-white mb-2">Community Forum</h4>
-              <p className="text-white/70">Connect with other learners and native speakers</p>
-            </div>
-            <div className="border-l-4 border-[#FF6B35] pl-4">
-              <h4 className="font-semibold text-white mb-2">Offline Mode</h4>
-              <p className="text-white/70">Download lessons for learning without internet connection</p>
             </div>
           </div>
         </div>
 
         {/* Technical Highlights */}
-        <div className="bg-[#181818] border border-white/10 rounded-2xl p-8 mb-12 shadow-2xl">
+        {/* <div className="bg-[#181818] border border-white/10 rounded-2xl p-8 mb-12 shadow-2xl">
           <h3 className="text-2xl font-bold text-white mb-6">Technical Highlights</h3>
           
           <div className="space-y-4">
@@ -157,10 +149,10 @@ export default function Atarrodo() {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Results */}
-        <div className="bg-[#FF6B35] rounded-2xl p-8 mb-12 shadow-2xl">
+        {/* <div className="bg-[#FF6B35] rounded-2xl p-8 mb-12 shadow-2xl">
           <h3 className="text-2xl font-bold text-white mb-6">Results & Impact</h3>
           <div className="grid md:grid-cols-3 gap-6 text-white">
             <div className="text-center">
@@ -176,7 +168,7 @@ export default function Atarrodo() {
               <div className="text-white/90">User Rating</div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Technologies Used */}
         <div className="bg-[#181818] border border-white/10 rounded-2xl p-8 mb-12 shadow-2xl">
@@ -184,11 +176,10 @@ export default function Atarrodo() {
           <div className="flex flex-wrap gap-3">
             <span className="bg-[#FF6B35] text-white px-4 py-2 rounded-full">React.js</span>
             <span className="bg-[#FF6B35] text-white px-4 py-2 rounded-full">Next.js</span>
-            <span className="bg-[#FF6B35] text-white px-4 py-2 rounded-full">TypeScript</span>
-            <span className="bg-[#FF6B35] text-white px-4 py-2 rounded-full">Firebase</span>
+            <span className="bg-[#FF6B35] text-white px-4 py-2 rounded-full">JavaScript</span>
             <span className="bg-[#FF6B35] text-white px-4 py-2 rounded-full">Tailwind CSS</span>
-            <span className="bg-[#FF6B35] text-white px-4 py-2 rounded-full">PWA</span>
-            <span className="bg-[#FF6B35] text-white px-4 py-2 rounded-full">Audio API</span>
+            <span className="bg-[#FF6B35] text-white px-4 py-2 rounded-full">Swagger API</span>
+            <span className="bg-[#FF6B35] text-white px-4 py-2 rounded-full">API Integration</span>
             <span className="bg-[#FF6B35] text-white px-4 py-2 rounded-full">Git</span>
           </div>
         </div>

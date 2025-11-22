@@ -90,7 +90,7 @@ export default function FrontendProjects() {
                   <span className="bg-[#FF6B35] text-white px-3 py-1 rounded-full text-sm">Tailwind CSS</span>
                   <span className="bg-[#FF6B35] text-white px-3 py-1 rounded-full text-sm">Endpoint Integration</span>
                 </div>
-                <div className="flex sm:flex-row lg:flex-col gap-4">
+                <div className="flex gap-4">
                   <a 
                     href="/work/frontend-projects/atarrodo"
                     className="inline-block bg-[#FF6B35] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#FF6B35]/80 transition-colors"
