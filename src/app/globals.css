@@ -27,7 +27,7 @@ body {
 
 /* Animated Background */
 .animated-bg {
-  position: fixed;
+  position: absolute;
   inset: 0;
   overflow: hidden;
   pointer-events: none;
@@ -47,7 +47,7 @@ body {
 
 .animated-bg .shape {
   display: block;
-  opacity: 0.25;
+  opacity: 0.12;
   animation-name: floatY;
   animation-duration: var(--float-duration, 12s);
   animation-timing-function: ease-in-out;
@@ -92,3 +92,36 @@ body {
 
 /* Ensure content layers above background */
 html, body { position: relative; }
+
+button,
+a[class*="rounded"] {
+  border-radius: 9999px;
+}
+
+#portfolio .portfolio-navigation-item {
+  border-radius: 0;
+}
+
+.portfolio-sidebar {
+  position: static;
+}
+
+@media (min-width: 1024px) and (min-height: 1100px) {
+  .portfolio-sidebar {
+    position: sticky;
+    top: 7rem;
+    align-self: start;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animated-bg *,
+  .portfolio-sidebar *,
+  #portfolio a,
+  #portfolio button {
+    scroll-behavior: auto;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

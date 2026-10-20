@@ -3,22 +3,35 @@ import Link from 'next/link';
 import Image from "next/image";
 import logo from "/public/Bold-logo.png";
 import { useState } from 'react';
+import AvailabilityBadge from './AvailabilityBadge';
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [isSummoning, setIsSummoning] = useState(false);
   return (
-    <nav className="sticky top-0 z-30 bg-[#181818] text-white flex items-center justify-between px-2 sm:px-2 lg:px-8 border-b border-[#222]">
-      <Link href="/" className="">
-        <Image src={logo} alt="Nneoma's Portfolio" width={100} height={100} />
+    <nav className="sticky top-0 z-30 flex items-center justify-between border-b border-[#222] bg-[#181818] px-4 text-white sm:px-6 lg:px-8">
+      <Link href="/" aria-label="Nneoma's Portfolio home" className="flex h-14 items-center sm:h-16">
+        <Image
+          src={logo}
+          alt="Nneoma's Portfolio"
+          priority
+          sizes="(max-width: 767px) 160px, 200px"
+          className="h-auto w-[160px] sm:w-[200px]"
+        />
       </Link>
       {/* Desktop Menu */}
-      <ul className="hidden md:flex gap-8 text-sm">
-        <li><Link href="/" className="hover:text-[#FF6B35]">Home</Link></li>
-        <li><Link href="/work" className="hover:text-[#FF6B35]">Work</Link></li>
-        <li><Link href="/about" className="hover:text-[#FF6B35]">About</Link></li>
-        {/* <li><Link href="/contact" className="hover:text-[#FF6B35]">Contact</Link></li> */}
-      </ul>
-      <Link href="/resume" className="hidden md:inline border border-[#FF6B35] text-[#FF6B35] px-4 py-1 rounded hover:bg-[#FF6B35] hover:text-black transition">Resume</Link>
+      <div className="hidden items-center gap-4 md:flex">
+        <ul className="flex gap-6 text-sm">
+          {/*<li><Link href="/" className="hover:text-[#FF6B35]">Home</Link></li>*/}
+          <li><Link href="/work" className="hover:text-[#FF6B35]">Work</Link></li>
+          <li><Link href="/about" className="hover:text-[#FF6B35]">About</Link></li>
+          {/* <li><Link href="/contact" className="hover:text-[#FF6B35]">Contact</Link></li> */}
+        </ul>
+        <AvailabilityBadge
+          isSummoning={isSummoning}
+          onToggle={() => setIsSummoning((current) => !current)}
+        />
+      </div>
       {/* Hamburger Icon */}
       <button
         className="md:hidden flex flex-col justify-center items-center w-10 h-10 focus:outline-none z-20"
@@ -32,11 +45,14 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="absolute top-full left-0 w-full bg-[#181818] flex flex-col items-center gap-6 py-6 md:hidden shadow-lg z-10 animate-fade-in">
-          <Link href="/" className="hover:text-[#FF6B35] text-lg" onClick={() => setMenuOpen(false)}>Home</Link>
+          {/*<Link href="/" className="hover:text-[#FF6B35] text-lg" onClick={() => setMenuOpen(false)}>Home</Link>*/}
           <Link href="/work" className="hover:text-[#FF6B35] text-lg" onClick={() => setMenuOpen(false)}>Work</Link>
           <Link href="/about" className="hover:text-[#FF6B35] text-lg" onClick={() => setMenuOpen(false)}>About</Link>
           {/* <Link href="/contact" className="hover:text-[#FF6B35] text-lg" onClick={() => setMenuOpen(false)}>Contact</Link> */}
-          <Link href="/resume" className="border border-[#FF6B35] text-[#FF6B35] px-4 py-1 rounded hover:bg-[#FF6B35] hover:text-black transition text-lg" onClick={() => setMenuOpen(false)}>Resume</Link>
+          <AvailabilityBadge
+            isSummoning={isSummoning}
+            onToggle={() => setIsSummoning((current) => !current)}
+          />
         </div>
       )}
     </nav>

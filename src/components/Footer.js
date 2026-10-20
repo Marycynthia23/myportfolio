@@ -1,7 +1,5 @@
 "use client"
 import Link from 'next/link';
-import Image from "next/image";
-import wave from "../app/images/wave.svg"
 
 export default function Footer() {
   return (
@@ -20,9 +18,9 @@ export default function Footer() {
     //     Designed and coded © 2025 - Nneoma Onuoha
     //   </div>
     // </footer>
-    <footer className="relative bg-[#FF6B35] py-12 overflow-hidden">
+    <footer className="relative bg-[#222] py-12 overflow-hidden">
       {/* Decorative Elements */}
-      <div className="absolute top-0 left-0 w-full h-20 bg-[#FF6B35]">
+      <div className="absolute top-0 left-0 w-full h-20 bg-[#222]">
         <svg className="w-full h-full" viewBox="0 0 1200 120" preserveAspectRatio="none">
           <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" 
                 fill="currentColor" 
@@ -43,7 +41,7 @@ export default function Footer() {
           {/* Brand/Logo Section */}
           <div className="text-center md:text-left">
             <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">Nneoma Onuoha</h3>
-            <p className="text-white/90 text-sm">Frontend Developer & UI/UX Designer</p>
+            <p className="text-white/90 text-sm">Senior Product Designer &amp; Frontend Engineer</p>
           </div>
 
           {/* Social Links */}
@@ -87,7 +85,7 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
           <div className="text-white/90 sm:text-center lg:text-left">
-            Designed and coded with Next.js and Tailwind CSS © 2025 byNneoma Onuoha
+            Designed and coded with Next.js and Tailwind CSS © 2026 by Nneoma Onuoha
       </div>
           
           <div className="flex gap-6 text-white/80">
